@@ -29,5 +29,7 @@ public static boolean isPrime(int num){
         System.out.println("Enter Number:");
         int num=sc.nextInt();
         PrimeInRange(num);
+        sc.close();
+        
 }
 }
